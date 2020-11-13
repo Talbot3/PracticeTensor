@@ -4,10 +4,12 @@ paly with tensorflow's family, that's maybe funny .
 
 # AI in nodejs 
 
-## tutorial 
+## tutorial
+
 - https://tensorflow.google.cn/?hl=zh-cn
 - https://www.kaggle.com/datasets
 - https://www.ituring.com.cn/article/510217
+- https://keras.io/zh/
 
 ## blogs
 - https://blog.tensorflow.org/search?label=TensorFlow+Core&max-results=20
@@ -43,3 +45,13 @@ paly with tensorflow's family, that's maybe funny .
 - https://tensorflow.google.cn/datasets/catalog/overview
 - https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset
 - https://research.google.com/audioset/
+
+#### other  way to download dataset
+
+- img-dataset
+> or npmjs.com serach dataset
+
+## paper websit
+> 学者经常用的网站
+
+- arXiv
