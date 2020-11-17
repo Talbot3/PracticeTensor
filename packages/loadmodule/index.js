@@ -26,4 +26,31 @@ async function run() {
     // GraphModel
     // const graphModel =await tf.loadGraphModel("https://hub.tensorflow.google.cn/google/tfjs-model/imagenet/mobilenet_v2_100_224/classification/3/default/1", { fromTFHub: true })
 }
-run();
+
+async function run2() {
+    const model = tf.sequential();
+    model.add(
+        tf.layers.dense({ units: 100, activation: 'relu', inputShape: [200] }));
+    model.add(tf.layers.dense({ units: 1 }));
+    model.compile({
+        loss: 'meanSquaredError',
+        optimizer: 'sgd',
+        metrics: ['MAE']
+    });
+
+    // Generate some random fake data for demo purpose.
+    const xs = tf.randomUniform([10000, 200]);
+    const ys = tf.randomUniform([10000, 1]);
+    const valXs = tf.randomUniform([1000, 200]);
+    const valYs = tf.randomUniform([1000, 1]);
+
+    // Start model training process.
+    await model.fit(xs, ys, {
+        epochs: 100,
+        validationData: [valXs, valYs],
+        // Add the tensorBoard callback here.
+        callbacks: tf.node.tensorBoard('/tmp/fit_logs_1')
+    });
+}
+
+run2();

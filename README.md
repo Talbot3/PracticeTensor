@@ -4,6 +4,10 @@ paly with tensorflow's family, that's maybe funny .
 
 # AI in nodejs 
 
+## books
+
+- https://livebook.manning.com/book/deep-learning-with-javascript/chapter-1/1
+
 ## tutorial
 - https://tensorflow.google.cn/?hl=zh-cn
 - https://www.kaggle.com/datasets
