@@ -5,11 +5,14 @@ paly with tensorflow's family, that's maybe funny .
 # AI in nodejs 
 
 ## tutorial
-
 - https://tensorflow.google.cn/?hl=zh-cn
 - https://www.kaggle.com/datasets
 - https://www.ituring.com.cn/article/510217
 - https://keras.io/zh/
+- https://docs.ucloud.cn/uai-train/cases/retrain/prep-model
+- https://developer.nvidia.com/transfer-learning-toolkit
+- https://developer.nvidia.com/tlt-getting-started
+- https://developer.nvidia.com/zh-cn/tensorrt
 
 ## blogs
 - https://blog.tensorflow.org/search?label=TensorFlow+Core&max-results=20
@@ -24,6 +27,8 @@ paly with tensorflow's family, that's maybe funny .
 
 
 ### Models
+> 开源预训练模型
+
 - https://tfhub.dev/
 > 国内镜像为
 - https://hub.tensorflow.google.cn/ 
@@ -33,7 +38,9 @@ paly with tensorflow's family, that's maybe funny .
 镜像相关:
     - 1.谷歌云地址 https://storage.googleapis.com， 
     - 2.中国镜像 https://www.gstaticcnapps.cn
-
+- https://pytorch.org/hub/
+- https://ngc.nvidia.com/catalog/collections
+- https://keras.io/api/applications/
 ### DataSet
 
 - HMDB-51
