@@ -1,0 +1,19 @@
+{
+  "name": "loadmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "canvas": "^2.6.1",
+    "isomorphic-fetch": "^3.0.0",
+    "jimp": "^0.16.1"
+  }
+}
