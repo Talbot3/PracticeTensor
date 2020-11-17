@@ -5,7 +5,7 @@ paly with tensorflow's family, that's maybe funny .
 # AI in nodejs 
 
 ## books
-
+- https://wendydesigner.github.io/DLwithjs---chinese/introduction/
 - https://livebook.manning.com/book/deep-learning-with-javascript/chapter-1/1
 
 ## tutorial
